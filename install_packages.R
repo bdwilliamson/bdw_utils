@@ -1,7 +1,7 @@
 # install r packages
 
 tidy_packages <- c("tidyverse", "ggplot2", "cowplot", "here", "data.table")
-dev_packages <- c("devtools", "remotes", "argparse", "renv", "optparse")
+dev_packages <- c("devtools", "remotes", "reticulate", "argparse", "renv", "optparse")
 regression_packages <- c("survival", "sandwich", "glmnet", "xgboost", "ranger", "SuperLearner", "geeM", "lme4", "boot", "vimp")
 missing_data_packages <- c("mice")
 feature_selection_packages <- c("knockoffs", "stabs")
