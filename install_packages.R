@@ -12,5 +12,5 @@ misc_packages <- c("xtable")
 install.packages(c(tidy_packages, dev_packages, 
                    regression_packages, missing_data_packages,
                    feature_selection_packages, bayes_packages, 
-                   misc_packages), dep = TRUE, 
+                   markdown_packages, misc_packages), dep = TRUE, 
                  repos = "https://cran.rstudio.com/")
