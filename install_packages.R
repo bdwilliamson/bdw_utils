@@ -7,7 +7,7 @@ missing_data_packages <- c("mice")
 feature_selection_packages <- c("knockoffs", "stabs")
 bayes_packages <- c("R2OpenBUGS", "rstan")
 markdown_packages <- c("kableExtra", "bookdown")
-misc_packages <- c("xtable")
+misc_packages <- c("xtable", "janitor", "gtsummary")
 
 install.packages(c(tidy_packages, dev_packages, 
                    regression_packages, missing_data_packages,
