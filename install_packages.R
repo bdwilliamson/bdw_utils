@@ -6,7 +6,7 @@ regression_packages <- c("survival", "sandwich", "glmnet", "xgboost", "ranger", 
 missing_data_packages <- c("mice")
 feature_selection_packages <- c("knockoffs", "stabs")
 bayes_packages <- c("R2OpenBUGS", "rstan")
-markdown_packages <- c("kableExtra", "bookdown")
+markdown_packages <- c("kableExtra", "bookdown", "knitr", "rmarkdown")
 misc_packages <- c("xtable", "janitor", "gtsummary")
 
 install.packages(c(tidy_packages, dev_packages, 
