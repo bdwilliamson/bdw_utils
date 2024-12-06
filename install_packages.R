@@ -1,8 +1,8 @@
 # install r packages
 
-tidy_packages <- c("tidyverse", "ggplot2", "cowplot", "here", "data.table")
+tidy_packages <- c("tidyverse", "ggplot2", "cowplot", "here", "data.table", "rprojroot")
 dev_packages <- c("devtools", "remotes", "reticulate", "argparse", "renv", "optparse")
-regression_packages <- c("survival", "sandwich", "glmnet", "xgboost", "ranger", "SuperLearner", "geeM", "lme4", "boot", "vimp")
+regression_packages <- c("survival", "sandwich", "glmnet", "xgboost", "ranger", "SuperLearner", "hal9001", "survey", "geeM", "lme4", "boot", "vimp")
 missing_data_packages <- c("mice")
 feature_selection_packages <- c("knockoffs", "stabs")
 bayes_packages <- c("R2OpenBUGS", "rstan")
